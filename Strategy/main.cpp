@@ -34,6 +34,10 @@ int main() {
     std::cout << "Creating user 3..." << std::endl;
     userManager.createUser("Bob Johnson", "bob.johnson@example.com");
     std::cout << std::endl;
+
+    std::cout << "Creating user 4..." << std::endl;
+    userManager.createUser("Gabi Sol", "solich.gabriela@gmail.com");
+    std::cout << std::endl;
     
     // Test invalid user
     std::cout << "Creating invalid user (empty name)..." << std::endl;

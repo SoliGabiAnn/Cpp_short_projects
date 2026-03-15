@@ -1,0 +1,1 @@
+Stwórz przykład wzorca projektowego strategia implementującego SOLID

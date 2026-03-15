@@ -5,6 +5,7 @@
 #include <string>
 #include <memory>
 #include "Logger.h"
+#include <regex>
 
 class EmailService {
 public:
@@ -18,11 +19,10 @@ private:
     int smtpPort;
     std::string senderEmail;
     std::shared_ptr<Logger> logger;
+    std::string userEmailRegex = "[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})";
     
     bool validateEmail(const std::string& email) const {
-        size_t atPos = email.find('@');
-        size_t dotPos = email.find('.');
-        return atPos != std::string::npos && dotPos != std::string::npos && atPos < dotPos;
+        return std::regex_match(email, std::regex(userEmailRegex));
     }
     
 public:

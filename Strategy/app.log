@@ -1,0 +1,89 @@
+=== Log File Created ===
+[2026-03-15 12:40:36] [APP] Application started
+[2026-03-15 12:40:36] [REPO] JSON file created: users.json
+[2026-03-15 12:40:36] [REPO] User saved successfully: John Doe (john.doe@example.com)
+[2026-03-15 12:40:36] [EMAIL ERROR] Invalid email format: john.doe@example.com
+[2026-03-15 12:40:36] Failed to send welcome email to: john.doe@example.com
+[2026-03-15 12:40:36] User created successfully: John Doe
+[2026-03-15 12:40:36] [REPO] User saved successfully: Jane Smith (jane.smith@example.com)
+[2026-03-15 12:40:36] [EMAIL ERROR] Invalid email format: jane.smith@example.com
+[2026-03-15 12:40:36] Failed to send welcome email to: jane.smith@example.com
+[2026-03-15 12:40:36] User created successfully: Jane Smith
+[2026-03-15 12:40:36] [REPO] User saved successfully: Bob Johnson (bob.johnson@example.com)
+[2026-03-15 12:40:36] [EMAIL ERROR] Invalid email format: bob.johnson@example.com
+[2026-03-15 12:40:36] Failed to send welcome email to: bob.johnson@example.com
+[2026-03-15 12:40:36] User created successfully: Bob Johnson
+[2026-03-15 12:40:36] Failed to create user: invalid data
+[2026-03-15 12:40:36] [APP] Application completed
+[2026-03-15 12:44:48] [APP] Application started
+[2026-03-15 12:44:48] [REPO] JSON file already exists: users.json
+[2026-03-15 12:44:48] [REPO] User saved successfully: John Doe (john.doe@example.com)
+[2026-03-15 12:44:48] [EMAIL] Sending welcome email to: john.doe@example.com
+[2026-03-15 12:44:48] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:44:48] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:44:48] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:44:48] User created successfully: John Doe
+[2026-03-15 12:44:48] [REPO] User saved successfully: Jane Smith (jane.smith@example.com)
+[2026-03-15 12:44:48] [EMAIL] Sending welcome email to: jane.smith@example.com
+[2026-03-15 12:44:48] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:44:48] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:44:48] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:44:48] User created successfully: Jane Smith
+[2026-03-15 12:44:48] [REPO] User saved successfully: Bob Johnson (bob.johnson@example.com)
+[2026-03-15 12:44:48] [EMAIL] Sending welcome email to: bob.johnson@example.com
+[2026-03-15 12:44:48] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:44:48] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:44:48] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:44:48] User created successfully: Bob Johnson
+[2026-03-15 12:44:48] Failed to create user: invalid data
+[2026-03-15 12:44:48] [APP] Application completed
+[2026-03-15 12:49:38] [APP] Application started
+[2026-03-15 12:49:38] [REPO] JSON file already exists: users.json
+[2026-03-15 12:49:38] [REPO] User saved successfully: John Doe (john.doe@example.com)
+[2026-03-15 12:49:38] [EMAIL] Sending welcome email to: john.doe@example.com
+[2026-03-15 12:49:38] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:49:38] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:49:38] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:49:38] User created successfully: John Doe
+[2026-03-15 12:49:38] [REPO] User saved successfully: Jane Smith (jane.smith@example.com)
+[2026-03-15 12:49:38] [EMAIL] Sending welcome email to: jane.smith@example.com
+[2026-03-15 12:49:38] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:49:38] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:49:38] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:49:38] User created successfully: Jane Smith
+[2026-03-15 12:49:38] [REPO] User saved successfully: Bob Johnson (bob.johnson@example.com)
+[2026-03-15 12:49:38] [EMAIL] Sending welcome email to: bob.johnson@example.com
+[2026-03-15 12:49:38] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:49:38] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:49:38] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:49:38] User created successfully: Bob Johnson
+[2026-03-15 12:49:38] Failed to create user: invalid data
+[2026-03-15 12:49:38] [APP] Application completed
+[2026-03-15 12:52:57] [APP] Application started
+[2026-03-15 12:52:57] [REPO] JSON file already exists: users.json
+[2026-03-15 12:52:57] [REPO] User saved successfully: John Doe (john.doe@example.com)
+[2026-03-15 12:52:57] [EMAIL] Sending welcome email to: john.doe@example.com
+[2026-03-15 12:52:57] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:52:57] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:52:57] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:52:57] User created successfully: John Doe
+[2026-03-15 12:52:57] [REPO] User saved successfully: Jane Smith (jane.smith@example.com)
+[2026-03-15 12:52:57] [EMAIL] Sending welcome email to: jane.smith@example.com
+[2026-03-15 12:52:57] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:52:57] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:52:57] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:52:57] User created successfully: Jane Smith
+[2026-03-15 12:52:57] [REPO] User saved successfully: Bob Johnson (bob.johnson@example.com)
+[2026-03-15 12:52:57] [EMAIL] Sending welcome email to: bob.johnson@example.com
+[2026-03-15 12:52:57] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:52:57] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:52:57] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:52:57] User created successfully: Bob Johnson
+[2026-03-15 12:52:57] [REPO] User saved successfully: Gabi Sol (solich.gabriela@gmail.com)
+[2026-03-15 12:52:57] [EMAIL] Sending welcome email to: solich.gabriela@gmail.com
+[2026-03-15 12:52:57] [SMTP] Connecting to: smtp.gmail.com:587
+[2026-03-15 12:52:57] [SMTP] From: noreply@coffee-shop.com
+[2026-03-15 12:52:57] [EMAIL] Welcome email sent successfully
+[2026-03-15 12:52:57] User created successfully: Gabi Sol
+[2026-03-15 12:52:57] Failed to create user: invalid data
+[2026-03-15 12:52:57] [APP] Application completed
