@@ -1,4 +1,4 @@
-# INW_Cpp
+# Cpp short projects
 In this repository multiple programming paradigms and patterns were tested using short projects as examples.
 
 ## Rule of 3, 5, 0
